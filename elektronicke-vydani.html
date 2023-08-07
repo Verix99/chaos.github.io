@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="elektronicke-vydani.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elektronické vydání</title>
+    <link rel="shortcut icon" href="gulz_logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="header-logo">
+          <a href="index.html">CHAOS</a>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="#">Elektronické vydání</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+    <main>
+      <div class="nadpis"><h1>Elektronické vydání časopisu</h1></div>
+      <div class="container">
+        <div class="titul-1">
+          <a href="https://petrveprek.eu"
+            ><img src="Casopisy-titulky/chaos-3.png"
+          /></a>
+        </div>
+        <div class="titul-2">
+          <a href="https://petrveprek.eu"
+            ><img src="Casopisy-titulky/chaos-3.png"
+          /></a>
+        </div>
+        <div class="titul-3">
+          <a href="https://petrveprek.eu"
+            ><img src="Casopisy-titulky/chaos-3.png"
+          /></a>
+        </div>
+        <div class="titul-4">
+          <a href="https://petrveprek.eu"
+            ><img src="Casopisy-titulky/chaos-4.png"
+          /></a>
+        </div>
+        <div class="titul-5">
+          <a href="https://petrveprek.eu"
+            ><img src="Casopisy-titulky/chaos-5.png"
+          /></a>
+        </div>
+        <div class="titul-6">
+          <a href="https://petrveprek.eu"
+            ><img src="Casopisy-titulky/chaos-6.png"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
