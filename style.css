@@ -162,13 +162,15 @@ nav .fa {
   grid-gap: 20px;
   margin-top: 20px;
   width: 100%;
+  place-items: center;
+  position: relative;
 }
 .obalka {
   width: 400px;
   height: 600px;
   border-radius: 10px;
   transform-style: preserve-3d;
-  transition: 1s;
+  transition: 1s ease;
 }
 .obalka img {
   width: 100%;
@@ -176,8 +178,6 @@ nav .fa {
   border-radius: 20px;
 }
 .obalka:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
   transform: rotateY(180deg);
 }
 .front {
