@@ -18,9 +18,9 @@
             <div class="nav-links" id="navLinks">
               <i class="fa fa-times" onclick="hideMenu()"></i>
               <ul>
-                <li><a href="#">Domů</a></li>
-                <li><a href="#elektricke-vydani">Elektronické vydání</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a onclick="hideMenu()" href="#">Domů</a></li>
+                <li><a onclick="hideMenu()" href="#elektricke-vydani">Elektronické vydání</a></li>
+                <li><a onclick="hideMenu()" href="#kontakt">Kontakt</a></li>
               </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -139,17 +139,6 @@
           <h3>Code & Design by Petr Vepřek</h3>
         </footer>
       </main>
-    <script>
-      var navLinks = document.getElementById("navLinks");
-      function showMenu() {
-        navLinks.style.width = "50%";
-        navLinks.style.display = "block";
-        navLinks.style.transition = "1s";
-      }
-      function hideMenu() {
-        navLinks.style.width = "0%";
-      }
-    </script>
     <script src="./js.js"></script>
   </body>
 </html>

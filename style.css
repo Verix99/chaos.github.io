@@ -384,6 +384,10 @@ footer h3 {
     display: none;
     overflow-x: hidden;
   }
+  .nav-links ul li a:hover {
+    color: #fff;
+    opacity: 0.8;
+  }
   .nav-bar {
     position: relative;
   }
@@ -401,8 +405,8 @@ footer h3 {
   .ig-btn {
     margin-left: 0px;
   }
-  .header-logo {
-    padding: 20px;
+  .container {
+    width: 70%;
   }
   .grid {
     display: flex;
@@ -413,11 +417,14 @@ footer h3 {
     width: 100%;
   }
   .obalka {
-    height: 500px;
+    height: 420px;
     width: auto;
   }
   .back ul {
     font-size: 15px;
+  }
+  .back h1 {
+    margin-top: 60px;
   }
   .nadpis_2 h1 {
     font-size: 35px;

@@ -1,5 +1,3 @@
-
-
 function handleHeaderColorChange() {
     const scrollPosition = (window.scrollY / window.innerHeight) * 100;
     const header = document.querySelector('.nav-bar');
@@ -12,6 +10,15 @@ function handleHeaderColorChange() {
   
   // Nasloucháme události scroll pro změnu barvy headeru
   window.addEventListener('scroll', handleHeaderColorChange);
-  console.log('Hello world!')
 
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+   
+    navLinks.style.width = "50%";
+    navLinks.style.display = "block";
+    
+  }
+  function hideMenu() {
+    navLinks.style.width = "0";
+  }
 
